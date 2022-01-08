@@ -45,8 +45,6 @@ function FileUpload() {
         console.log(err);
       });
     console.log(resp1);
-
-    console.log(resp3);
   };
 
   const FileData = () => {

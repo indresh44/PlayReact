@@ -3,6 +3,7 @@ import "./App.css";
 import Countdown from "./component/Countdown";
 import CountdownWithoutRef from "./component/CountdownWithoutRef";
 import FileUpload from "./component/fileManipulation/FileUpload";
+import AddNumbers from "./component/callBack/AddNumbers";
 
 function App() {
   const [num, setNum] = useState(0);
@@ -12,14 +13,15 @@ function App() {
       {/* <h1>Hello wello</h1>
       <input value={num} type="number" /> */}
 
-      <Countdown seconds={10} isStarted={isStarted} />
+      {/* <Countdown seconds={10} isStarted={isStarted} />
       <CountdownWithoutRef />
       {isStarted ? (
         <button onClick={() => setIsStarted(!isStarted)}>Stop</button>
       ) : (
         <button onClick={() => setIsStarted(!isStarted)}>Start</button>
       )}
-      <FileUpload />
+      <FileUpload /> */}
+      <AddNumbers />
     </div>
   );
 }
